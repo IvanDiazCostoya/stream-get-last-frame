@@ -14,7 +14,8 @@ cv2.namedWindow("test2", cv2.WINDOW_NORMAL)
 cv2.moveWindow("test2", 1000, 20)
 cv2.resizeWindow('test2', 480, 270)
 
-URL = "udp://224.0.0.1:9999?pkt_size=1316"
+# URL = "udp://224.0.0.1:9999?pkt_size=1316"
+URL = 'cheetah.mp4'
 
 cap = cv2.VideoCapture(URL)
 cap2 = VC_no_buffer.VideoCaptureNoBuffer(URL)
